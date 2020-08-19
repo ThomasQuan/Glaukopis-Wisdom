@@ -1,0 +1,77 @@
+.intro-section {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../assets/photo/online-learning.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  // background-position: 45% 75%; for mobile;
+  > .intro-header {
+    width: 100vw;
+    height: max-content;
+    > .intro-logo {
+      width: 10vw;
+      margin: 1rem 0 0 1rem;
+    }
+  }
+  > .intro-content {
+    position: relative;
+    padding: 1rem 0 1rem 1rem;
+    margin: 10vh 0 0 10vw;
+    width: 40vw;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    > .intro-title {
+      margin: 0%;
+      font-size: 3rem;
+      font-family: $playfair-display;
+    }
+    > .intro-subtitle {
+      font-weight: 400;
+      margin: 1rem 0 0 3vh;
+    }
+    > h3 {
+      font-weight: 400;
+      margin: 3vh 0 0 6vh;
+    }
+    > .button-container {
+      margin-top: 5rem;
+      display: flex;
+      > button {
+        margin: auto 0.2rem 0 3vh;
+        height: 3rem;
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 7rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .intro-section {
+    > .intro-header {
+      width: 100vw;
+      height: max-content;
+      display: flex;
+      justify-content: center;
+      > .intro-logo {
+        width: 20vw;
+        margin: 1rem 0 0 1rem;
+      }
+    }
+    > .intro-content {
+      margin: 3rem auto auto auto;
+      width: 90vw;
+      height: max-content;
+    }
+  }
+}
+@media only screen and (max-height: 610px) {
+  .intro-section {
+    height: max-content;
+    margin-bottom: 1rem;
+  }
+}

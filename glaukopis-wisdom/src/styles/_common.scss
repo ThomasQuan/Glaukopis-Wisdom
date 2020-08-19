@@ -1,0 +1,19 @@
+.transparent-border {
+    border: none;
+    background-color: $transparent-white;
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.50);
+    border-radius: 5px;
+}
+
+.gap{
+    width: 100vw;
+    height: 30vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    >h1{
+        font-weight: normal;
+        
+    }
+}
