@@ -1,3 +1,6 @@
+<h1> Link to prototype : https://www.figma.com/file/6w9rTN9eszENIECIVlzqpo/Glaukopis-wisdom?node-id=91%3A32 </h1>
+
+
 This will be a business landing page for our new project name Glaukopis Wisdom where peoples can come and learn new skills and knowledge
 for when they return back to work after COVID-19 or for peoples who just started job hunting and want to advance his/ her skill.
 
