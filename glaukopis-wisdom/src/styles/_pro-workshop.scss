@@ -1,4 +1,107 @@
-.pro-section{
-    width: 100vw;
-    height: 100vh;
+.pro-section {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  > .pro-section-content {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    height: max-content;
+    margin: 10vw 0 0 5vw;
+    > .pro-section-title {
+      display: flex;
+      width: 50vw;
+      justify-content: space-between;
+      > img {
+        margin: auto;
+        width: 5vw;
+        height: 8vh;
+      }
+      > h1 {
+        width: 25vw;
+      }
+    }
+    > h2 {
+      font-weight: normal;
+      width: 30vw;
+    }
+    > .pro-section-desc {
+      width: 40vw;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      > .pro-section-desc-container {
+        width: 15vw;
+        display: flex;
+        flex-direction: column;
+        > button {
+          margin: auto;
+          width: 10vw;
+          padding: 2vh 0 2vh 0;
+          font-size: 2vh;
+          font-weight: bold;
+
+        }
+      }
+    }
+  }
+  > img {
+    margin: auto;
+    width: 40vw;
+    height: 60vh;
+  }
+}
+
+@media only screen and (max-width: 653px) {
+  .pro-section {
+    > .pro-section-content {
+      width: 100vw;
+      margin: 0;
+      border: none;
+      background-color: #ffffffbd;
+      border-radius: 5px;
+      > .pro-section-title {
+        width: 100vw;
+        > img {
+          width: 15vw;
+          height: 10vh;
+          object-fit: contain;
+        }
+        > h1 {
+          width: max-content;
+          font-size: 7vh;
+          margin-left: 2vw;
+          
+        }
+      }
+      > h2 {
+        font-weight: normal;
+        width: 80vw;
+        margin-left: 2vw;
+      }
+      > .pro-section-desc {
+        width: 100vw;
+        justify-content: space-around;
+        > .pro-section-desc-container {
+          width: 35vw;
+
+          > button {
+            width: max-content;
+            padding: 2vw;
+            font-size: 0.75rem;
+            font-weight: bold;
+
+          }
+        }
+      }
+    }
+    > img {
+      margin: 0vw;
+      position: absolute;
+      width: 100vw;
+      height: 70vh;
+      z-index: -1;
+      filter: blur(1px);
+    }
+  }
 }

@@ -1,0 +1,28 @@
+.end-section {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10vh;
+  > div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+    > img {
+      width: 30vw;
+
+      object-fit: cover;
+      margin: auto;
+    }
+    > h1 {
+      width: 70vw;
+      text-align: center;
+    }
+    > button {
+      margin: 0 auto 0 auto;
+      padding: 1vh 2vw 1vh 2vw;
+      font-weight: bold;
+    }
+  }
+}

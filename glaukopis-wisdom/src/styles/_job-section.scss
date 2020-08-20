@@ -55,6 +55,12 @@
             margin-bottom: 1.5rem;
           }
         }
+        >button{
+          width: max-content;
+          padding: 2vw;
+          margin: 0 auto 2vh auto;
+          font-weight: bold;
+        }
       }
     }
   }
@@ -88,6 +94,7 @@
         > div {
           > ul {  
             display: flex;
+            width: 90vw;
             justify-content: space-between;
             padding: 0;
             flex-wrap: wrap;

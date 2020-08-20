@@ -17,16 +17,16 @@ const IntroSection = () => {
             tips around the internet <b>within a single platform</b>
           </h2>
           <div className="button-container">
-            <button className="transparent-border">Educational program</button>
-            <button className="transparent-border">Job Opportunities</button>
-            <button className="transparent-border">Community Hub</button>
-            <button className="transparent-border">
+            <button className="transparent-border hover-effect">Educational program</button>
+            <button className="transparent-border hover-effect">Job Opportunities</button>
+            <button className="transparent-border hover-effect">Community Hub</button>
+            <button className="transparent-border hover-effect">
               Professional Workshop
             </button>
           </div>
         </div>
         <div className="intro-cont transparent-border ">
-          <h1>Scroll to learn more</h1>
+          <h2>Scroll down to checkout our feature</h2>
         </div>
       </div>
     </React.Fragment>

@@ -5,6 +5,11 @@
     border-radius: 5px;
 }
 
+.hover-effect:hover{
+    background-color: $forest-color;
+    color: white;
+}
+
 .gap-title{
     width: 100vw;
     height: 30vh;

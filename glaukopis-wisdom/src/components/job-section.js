@@ -4,7 +4,9 @@ const JobSection = () => {
     <React.Fragment>
       <div className="job-section">
         <div className="job-section-content transparent-border">
-          <h1 className="job-section-content-title">Job Opportunities </h1>
+          <h1 className="job-section-content-title">
+            Job Search Opportunities{" "}
+          </h1>
           <h2 className="job-section-content-subtitle">
             Find your calling below, a new career is just one click away with
             our dedicated job board !
@@ -18,6 +20,9 @@ const JobSection = () => {
                 <li>Networking Event</li>
                 <li>Company Job notice around you</li>
               </ul>
+              <button className="transparent-border hover-effect">
+                Find your job
+              </button>
             </div>
           </div>
         </div>

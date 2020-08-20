@@ -1,6 +1,6 @@
 .edu-section {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   margin-bottom: 10vh;
   display: flex;
   > img {
@@ -35,7 +35,7 @@
         width: 25vw;
         height: max-content;
         font-size: 4vh;
-        margin: 0 auto 2vh auto ;
+        margin: 2vh auto 2vh auto ;
         font-weight:bold;
       }
       > .support-gallary {
@@ -65,16 +65,13 @@
 @media only screen and (max-width: 825px) {
   .edu-section {
     flex-direction: column;
-    height: max-content;
     > img {
       margin: 0;
       height: 30vh;
       width: 100vw;
     }
     > .edu-content {
-      height: max-content;
-      margin-bottom: 5rem;
-      padding: 2rem;
+      height:auto;
       > h1 {
         margin: 0 0.5rem 0 1rem;
       }

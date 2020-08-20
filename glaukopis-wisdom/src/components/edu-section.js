@@ -36,7 +36,7 @@ const EduSection = () => {
 
               <Ebook className="svg-img" />
             </div>
-            <button className="transparent-border"> Start Exploring</button>
+            <button className="transparent-border hover-effect"> Start Exploring</button>
           </div>
         </div>
       </div>
