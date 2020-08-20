@@ -1,0 +1,48 @@
+.client-error-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  flex-wrap: wrap;
+  > div {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    > img {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+    }
+  }
+  > h1 {
+    margin: auto 0 auto auto;
+    height: max-content;
+    width: max-content;
+    color: white;
+    z-index: 1;
+  }
+  > .link-back {
+    z-index: 1;
+    margin: auto auto auto 2vw;
+    color: rgb(146, 30, 30);
+  }
+}
+
+@media only screen and (max-width: 350px) {
+    .client-error-container {
+        flex-direction: column;
+        > h1 {
+          margin: auto auto 0 auto;
+          height: max-content;
+          width: 80vw;
+          color: white;
+          z-index: 1;
+        }
+        > .link-back {
+          z-index: 1;
+          margin: 2vw auto auto auto;
+          color: rgb(146, 30, 30);
+        }
+      }
+}

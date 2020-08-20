@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useRef } from "react";
+
 const JobSection = () => {
+
   return (
     <React.Fragment>
-      <div className="job-section">
+      <div className="job-section" id='job'>
         <div className="job-section-content transparent-border">
           <h1 className="job-section-content-title">
             Job Search Opportunities{" "}

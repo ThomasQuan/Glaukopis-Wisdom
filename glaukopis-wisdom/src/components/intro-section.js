@@ -13,16 +13,23 @@ const IntroSection = () => {
         <div className="intro-content transparent-border">
           <h1 className="intro-title">Glaukopis Wisdom</h1>
           <h2 className="intro-subtitle">
-            A place for you to search for all learning materials, job posts and
-            tips around the internet <b>within a single platform</b>
+            A search platform with dedicated community hub for you to search for all learning
+            materials, job posts and tips around the internet
+            <b>within a single platform</b>
           </h2>
           <div className="button-container">
-            <button className="transparent-border hover-effect">Educational program</button>
-            <button className="transparent-border hover-effect">Job Opportunities</button>
-            <button className="transparent-border hover-effect">Community Hub</button>
-            <button className="transparent-border hover-effect">
+            <a href='#edu' className="transparent-border hover-effect">
+              Educational program
+            </a>
+            <a href='#job' className="transparent-border hover-effect">
+              Job Opportunities
+            </a>
+            <a href='#community' className="transparent-border hover-effect">
+              Community Hub
+            </a>
+            <a href='#workshop' className="transparent-border hover-effect">
               Professional Workshop
-            </button>
+            </a>
           </div>
         </div>
         <div className="intro-cont transparent-border ">

@@ -40,12 +40,17 @@
       margin-top: 5rem;
       display: flex;
       flex-wrap: wrap;
-      > button {
+      > a {
         margin: auto 0.2rem 1rem 3vh;
         height: 3rem;
         font-size: 1rem;
         padding: 0.5rem;
         width: 8rem;
+        text-decoration: none;
+        color: $forest-color;
+      }
+      >a:hover{
+        color: white;
       }
     }
   }
@@ -88,8 +93,6 @@
       > .button-container {
         justify-content: center;
         margin-left: auto;
-        justify-content: center;
-
       }
     }
   }
@@ -111,13 +114,6 @@
       > .button-container {
         justify-content: center;
         margin-left: auto;
-        justify-content: center;
-        > button {
-        }
-      }
-      > .button-container {
-        justify-content: center;
-        justify-content: center;
       }
     }
     >.intro-cont{

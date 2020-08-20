@@ -5,7 +5,7 @@ import InterviewIllustration from "../assets/photo/undraw_interview_rmcf.png";
 const ProfessionalWorkshop = () => {
   return (
     <React.Fragment>
-      <div className="pro-section">
+      <div className="pro-section" id='workshop'>
         <div className="pro-section-content">
           <div className="pro-section-title">
             <h1>Hiring Workshop</h1>

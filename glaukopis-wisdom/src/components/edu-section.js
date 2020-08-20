@@ -9,8 +9,8 @@ import { ReactComponent as Ebook } from "../assets/svg/ebook.svg";
 const EduSection = () => {
   return (
     <React.Fragment>
-      <div className="edu-section">
-        <img src={Library}></img>
+      <div className="edu-section" id='edu'>
+        <img src={Library} alt='library'></img>
         <div className="edu-content">
           <h1>Shorten the search duration - increase the learning capacity</h1>
           <div className="statement-content">

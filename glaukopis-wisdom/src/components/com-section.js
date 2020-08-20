@@ -6,7 +6,7 @@ import ProgressStep from "./utils/progress-step-container";
 const CommunitySection = () => {
   return (
     <React.Fragment>
-      <div className="com-section">
+      <div className="com-section" id='community'>
         <img
           src={Community}
           alt="united-nations-covid-19-response-unsplash"

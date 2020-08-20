@@ -1,6 +1,6 @@
 .job-section {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: flex;
   background-image: url("../assets/photo/briefcase-walk.jpg");
   background-size: cover;
@@ -9,20 +9,20 @@
 
   > .job-section-content {
     width: 50vw;
-    height: 90vh;
+    height: auto;
     margin: 2rem 0 2rem 0;
     padding: 0 0 0 7vw;
     > .job-section-content-title {
       margin: 1rem 0 0 0;
       font-weight: normal;
-      font-size: 7vh;
+      font-size: 5vh;
       text-align: center;
     }
     > .job-section-content-subtitle {
       margin: 2rem 0 2rem 0;
       padding: 0;
       font-weight: normal;
-      font-size: 4vh;
+      font-size: 3.5vh;
     }
     > .comparison-section {
       width: 40vw;
