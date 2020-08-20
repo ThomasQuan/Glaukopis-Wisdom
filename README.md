@@ -1,4 +1,5 @@
-<h1> Link to prototype : https://www.figma.com/file/6w9rTN9eszENIECIVlzqpo/Glaukopis-wisdom?node-id=91%3A32 </h1>
+<h3> Link to landing page : https://glaukopis-wisdom-landing-page.vercel.app </h3>
+<h3> Link to prototype : https://www.figma.com/file/6w9rTN9eszENIECIVlzqpo/Glaukopis-wisdom?node-id=91%3A32 </h3>
 
 
 This will be a business landing page for our new project name Glaukopis Wisdom where peoples can come and learn new skills and knowledge
