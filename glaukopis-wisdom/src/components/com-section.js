@@ -31,6 +31,10 @@ const CommunitySection = () => {
             Our community hub is a gateway for teachers, students, businesses,
             and individuals - All working, learning, and improving as one.
           </h2>
+          <h2>
+            Join the forum, engage in activity, ask question, seek apprentice,
+            and help the community with career related post
+          </h2>
 
           <div className="com-process-bar">
             <h1> The process is simple</h1>
