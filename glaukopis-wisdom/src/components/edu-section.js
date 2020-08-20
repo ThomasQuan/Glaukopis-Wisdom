@@ -5,12 +5,18 @@ import { ReactComponent as Pobcast } from "../assets/svg/podcast.svg";
 import { ReactComponent as School } from "../assets/svg/school.svg";
 import { ReactComponent as Youtube } from "../assets/svg/youtube.svg";
 import { ReactComponent as Ebook } from "../assets/svg/ebook.svg";
+import { useHistory } from "react-router-dom";
 
 const EduSection = () => {
+  const history = useHistory();
+
+  function tempNavHandle() {
+    history.push("/inprogress");
+  }
   return (
     <React.Fragment>
-      <div className="edu-section" id='edu'>
-        <img src={Library} alt='library'></img>
+      <div className="edu-section" id="edu">
+        <img src={Library} alt="library"></img>
         <div className="edu-content">
           <h1>Shorten the search duration - increase the learning capacity</h1>
           <div className="statement-content">
@@ -36,7 +42,12 @@ const EduSection = () => {
 
               <Ebook className="svg-img" />
             </div>
-            <button className="transparent-border hover-effect"> Start Exploring</button>
+            <button
+              className="transparent-border hover-effect"
+              onClick={tempNavHandle}
+            >
+              Start Exploring
+            </button>
           </div>
         </div>
       </div>

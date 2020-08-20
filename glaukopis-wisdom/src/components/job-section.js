@@ -1,10 +1,15 @@
 import React, { useRef } from "react";
+import { useHistory } from "react-router-dom";
 
 const JobSection = () => {
+  const history = useHistory();
 
+  function tempNavHandle() {
+    history.push("/inprogress");
+  }
   return (
     <React.Fragment>
-      <div className="job-section" id='job'>
+      <div className="job-section" id="job">
         <div className="job-section-content transparent-border">
           <h1 className="job-section-content-title">
             Job Search Opportunities{" "}
@@ -22,7 +27,10 @@ const JobSection = () => {
                 <li>Networking Event</li>
                 <li>Company Job notice around you</li>
               </ul>
-              <button className="transparent-border hover-effect">
+              <button
+                className="transparent-border hover-effect"
+                onClick={tempNavHandle}
+              >
                 Find your job
               </button>
             </div>

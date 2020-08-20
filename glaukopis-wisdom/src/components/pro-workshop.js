@@ -1,8 +1,14 @@
 import React from "react";
 import DocumentIllustration from "../assets/photo/document.png";
 import InterviewIllustration from "../assets/photo/undraw_interview_rmcf.png";
+import { useHistory } from "react-router-dom";
 
 const ProfessionalWorkshop = () => {
+  const history = useHistory();
+
+  function tempNavHandle() {
+    history.push("/inprogress");
+  }
   return (
     <React.Fragment>
       <div className="pro-section" id='workshop'>
@@ -39,11 +45,11 @@ const ProfessionalWorkshop = () => {
               </p>
             </div>
             <div className="pro-section-desc-container">
-              <button className='transparent-border hover-effect'>Visit the workshop</button>
+              <button className='transparent-border hover-effect' onClick={tempNavHandle}>Visit the workshop</button>
             </div>
           </div>
         </div>
-        <img src={InterviewIllustration}></img>
+        <img src={InterviewIllustration} alt='interview '></img>
       </div>
     </React.Fragment>
   );

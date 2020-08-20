@@ -1,20 +1,29 @@
 import React from "react";
 import Community from "../assets/photo/united-nations-covid-19-response.jpg";
-import CommunityIllustration from "../assets/photo/community_hub_illustration.png";
 import "react-step-progress-bar/styles.css";
 import ProgressStep from "./utils/progress-step-container";
+import { useHistory } from "react-router-dom";
+
 const CommunitySection = () => {
+  const history = useHistory();
+
+  function tempNavHandle() {
+    history.push("/inprogress");
+  }
   return (
     <React.Fragment>
-      <div className="com-section" id='community'>
+      <div className="com-section" id="community">
         <img
           src={Community}
           alt="united-nations-covid-19-response-unsplash"
         ></img>
         <div className="com-section-content">
-          <div className='com-section-content-title-container'>
+          <div className="com-section-content-title-container">
             <h1>Community Hub</h1>
-            <button className="transparent-border hover-effect">
+            <button
+              className="transparent-border hover-effect"
+              onClick={tempNavHandle}
+            >
               Visit our hub
             </button>
           </div>

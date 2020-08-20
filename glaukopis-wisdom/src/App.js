@@ -8,6 +8,7 @@ import ProfessionalWorkshop from "./components/pro-workshop";
 import EndSection from "./components/end-section";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import ClientError from "./components/construction-site/404";
+import InProgress from "./components/construction-site/inprogress";
 function App() {
   return (
     <Router>
@@ -23,6 +24,9 @@ function App() {
             <CommunitySection></CommunitySection>
             <ProfessionalWorkshop></ProfessionalWorkshop>
             <EndSection></EndSection>
+          </Route>
+          <Route path="/inprogress" exact>
+            <InProgress />
           </Route>
           <Route path="*">
             <ClientError />

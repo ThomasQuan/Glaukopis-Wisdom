@@ -15,7 +15,7 @@ const IntroSection = () => {
           <h2 className="intro-subtitle">
             A search platform with dedicated community hub for you to search for all learning
             materials, job posts and tips around the internet
-            <b>within a single platform</b>
+            <b> within a single platform</b>
           </h2>
           <div className="button-container">
             <a href='#edu' className="transparent-border hover-effect">
