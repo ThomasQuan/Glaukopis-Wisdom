@@ -6,4 +6,99 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 80% 50%;
+
+  > .job-section-content {
+    width: 50vw;
+    height: 90vh;
+    margin: 2rem 0 2rem 0;
+    padding: 0 0 0 7vw;
+    > .job-section-content-title {
+      margin: 1rem 0 0 0;
+      font-weight: normal;
+      font-size: 7vh;
+      text-align: center;
+    }
+    > .job-section-content-subtitle {
+      margin: 2rem 0 2rem 0;
+      padding: 0;
+      font-weight: normal;
+      font-size: 4vh;
+    }
+    > .comparison-section {
+      width: 40vw;
+      height: max-content;
+      display: flex;
+      margin: 0 auto 0 0;
+
+      > div {
+        width: 80vw;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        > h1 {
+          margin: 0;
+          font-size: 4vh;
+          font-weight: 400;
+        }
+        > h2 {
+          font-size: 3vh;
+          font-weight: normal;
+          margin-left: 5vw;
+        }
+        > ul {
+          margin-left: 5vw;
+
+          > li {
+            font-size: 3vh;
+            width: 20vw;
+            margin-bottom: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 840px) {
+  .job-section {
+    height: max-content;
+    > .job-section-content {
+      width: 100vw;
+      height: max-content;
+      margin: 2rem;
+
+      > .job-section-content-title {
+        text-align: center;
+      }
+
+      > .comparison-section {
+        width: 80vw;
+        height: max-content;
+        justify-content: space-between;
+
+      }
+    }
+  }
+}
+@media only screen and (max-width: 450px) {
+  .job-section {
+    > .job-section-content {
+      margin: 2rem 0 2rem 0;
+      > .comparison-section {
+        > div {
+          > ul {  
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+            flex-wrap: wrap;
+            margin-left: 0;
+            > li {
+              list-style: none;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
 }

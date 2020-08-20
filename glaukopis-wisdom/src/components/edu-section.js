@@ -1,6 +1,10 @@
 import React from "react";
 import Library from "../assets/photo/shunya-koide-1emWndlDHs0-unsplash.jpg";
-import { ReactComponent as ImgPlaceHolder } from "../assets/svg/photo.svg";
+import { ReactComponent as OnlineClass } from "../assets/svg/online-class.svg";
+import { ReactComponent as Pobcast } from "../assets/svg/podcast.svg";
+import { ReactComponent as School } from "../assets/svg/school.svg";
+import { ReactComponent as Youtube } from "../assets/svg/youtube.svg";
+import { ReactComponent as Ebook } from "../assets/svg/ebook.svg";
 
 const EduSection = () => {
   return (
@@ -8,28 +12,29 @@ const EduSection = () => {
       <div className="edu-section">
         <img src={Library}></img>
         <div className="edu-content">
-          <h1>A center for all education around the internet</h1>
+          <h1>Shorten the search duration - increase the learning capacity</h1>
           <div className="statement-content">
-            <p>
-              Our mission is to help individual study and prepare for their
-              future dream job is to help limit the search time and increase the
-              learning time.
-              <br />
-              <br />
-              We have search all over the internet for more than thousands of
-              resources including Online courses, University book, YouTube
-              videos, and more. <br />
-              <br />
-              We also have created a community hub for individual to help teach
-              and coach job seeker to their success which you can check further
-              along.
-            </p>
+            <ul>
+              <li>
+                We provide a range of learning materials from YouTube online
+                videos to e-book, all within our dedicated library.
+              </li>
+              <li>
+                Our library cover all different kind of subject materials,
+                ranging from Business,Art to Robotics Engineers.
+              </li>
+            </ul>
+            <p>All to satisfy your thirst for knowledge.</p>
             <div className="support-gallary">
-              <ImgPlaceHolder className='svg-img' />
-              <ImgPlaceHolder className='svg-img' />
-              <ImgPlaceHolder className='svg-img' />
-              <ImgPlaceHolder className='svg-img' />
-              <ImgPlaceHolder className='svg-img' />
+              <OnlineClass className="svg-img" />
+
+              <Pobcast className="svg-img" />
+
+              <School className="svg-img" />
+
+              <Youtube className="svg-img" />
+
+              <Ebook className="svg-img" />
             </div>
             <button className="transparent-border"> Start Exploring</button>
           </div>

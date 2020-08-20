@@ -16,16 +16,17 @@ const IntroSection = () => {
             A place for you to search for all learning materials, job posts and
             tips around the internet <b>within a single platform</b>
           </h2>
-          <h3>
-            Why bother going around the internet, wasting hours on hours
-            searching for the right source of education or job post for your
-            returning position or the next job when all is done for you with
-            Glaukopis Wisdom.
-          </h3>
           <div className="button-container">
-            <button className="transparent-border">Learn</button>
-            <button className="transparent-border">Job Search</button>
+            <button className="transparent-border">Educational program</button>
+            <button className="transparent-border">Job Opportunities</button>
+            <button className="transparent-border">Community Hub</button>
+            <button className="transparent-border">
+              Professional Workshop
+            </button>
           </div>
+        </div>
+        <div className="intro-cont transparent-border ">
+          <h1>Scroll to learn more</h1>
         </div>
       </div>
     </React.Fragment>
