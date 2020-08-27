@@ -11,27 +11,26 @@ const JobSection = () => {
     <React.Fragment>
       <div className="job-section" id="job">
         <div className="job-section-content transparent-border">
-          <h1 className="job-section-content-title">
-            Job Search Opportunities{" "}
-          </h1>
+          <h1 className="job-section-content-title">Job Opportunities </h1>
           <h2 className="job-section-content-subtitle">
-            Find your calling below, a new career is just one click away with
-            our dedicated job board !
+            Our in house bulletin boards are made to be the first stop on your
+            employment pursuits. We offer links to job search results, companies
+            hiring around you, and business postings for both contract and
+            internship availabilities.
           </h2>
           <div className="comparison-section">
             <div>
-              <h1>Introducing Glaukopis Job search</h1>
-              <h2>Provide an in house bulletin boards dedicated to find :</h2>
-              <ul>
-                <li>Job post from different Job board</li>
-                <li>Networking Event</li>
-                <li>Company Job notice around you</li>
-              </ul>
+              <h1>Introducing Glaukopis Job Search For:</h1>
+              <div className="button-container">
+                <div className="transparent-border">Job Links</div>
+                <div className="transparent-border">Company Postings</div>
+                <div className="transparent-border">Networking Events</div>
+              </div>
               <button
                 className="transparent-border hover-effect"
                 onClick={tempNavHandle}
               >
-                Find your job
+                Find your career
               </button>
             </div>
           </div>

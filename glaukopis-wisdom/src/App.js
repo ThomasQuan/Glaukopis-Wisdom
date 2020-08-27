@@ -17,7 +17,7 @@ function App() {
           <Route path="/" exact>
             <IntroSection></IntroSection>
             <div className="gap-title">
-              <h1>Educational search program</h1>
+              <h1>Educational Programs</h1>
             </div>
             <EduSection></EduSection>
             <JobSection></JobSection>

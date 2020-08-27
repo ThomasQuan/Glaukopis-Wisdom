@@ -18,19 +18,17 @@ const EduSection = () => {
       <div className="edu-section" id="edu">
         <img src={Library} alt="library"></img>
         <div className="edu-content">
-          <h1>Shorten the search duration - increase the learning capacity</h1>
+          <h1>Shorten your search time - increase your learning</h1>
           <div className="statement-content">
-            <ul>
-              <li>
-                We provide a range of learning materials from YouTube online
-                videos to e-book, all within our dedicated library.
-              </li>
-              <li>
-                Our library cover all different kind of subject materials,
-                ranging from Business,Art to Robotics Engineers.
-              </li>
-            </ul>
-            <p>All to satisfy your thirst for knowledge.</p>
+            <p className='statement-content-detail'>
+              Our online course selection has been vetted and verified to
+              provide you with the industry’s most renowned learning materials.
+              Our up to date programs are actively implemented and will help to
+              give you a leading edge in your field of interest.
+            </p>
+            <p>
+              <b>Our library is at your fingertips</b>
+            </p>
             <div className="support-gallary">
               <OnlineClass className="svg-img" />
 

@@ -20,22 +20,21 @@ const CommunitySection = () => {
         <div className="com-section-content">
           <div className="com-section-content-title-container">
             <h1>Community Hub</h1>
-            <button
-              className="transparent-border hover-effect"
-              onClick={tempNavHandle}
-            >
-              Visit our hub
-            </button>
           </div>
           <h2>
             Our community hub is a gateway for teachers, students, businesses,
             and individuals - All working, learning, and improving as one.
           </h2>
           <h2>
-            Join the forum, engage in activity, ask question, seek apprentice,
-            and help the community with career related post
+          Join the forum, search subjects, ask questions, find answers, and help yourself and our community grow.
           </h2>
 
+          <button
+            className="transparent-border hover-effect"
+            onClick={tempNavHandle}
+          >
+            Visit our hub
+          </button>
           <div className="com-process-bar">
             <h1> The process is simple</h1>
 

@@ -15,7 +15,7 @@ const ProgressStep = () => {
               style={{ height: "max-content", textAlign: "center" }}
             >
               <i className="fas fa-users fa-1x"></i>
-              <p style={{ margin: "1vh 0 0 0", fontSize: '2vh' }}>Register</p>
+              <p style={{ margin: "1vh 0 0 0", fontSize: '1rem' }}>Register</p>
             </div>
           )}
         </Step>
@@ -26,7 +26,7 @@ const ProgressStep = () => {
               style={{ height: "max-content", textAlign: "center" }}
             >
               <i className="fas fa-edit fa-1x"></i>
-              <p style={{ margin: "1vh 0 0 0", fontSize: '2vh' }}>Create post</p>
+              <p style={{ margin: "1vh 0 0 0", fontSize: '1rem' }}>Create post</p>
             </div>
           )}
         </Step>
@@ -37,7 +37,7 @@ const ProgressStep = () => {
               style={{ height: "max-content", textAlign: "center" }}
             >
               <i className="fas fa-brain fa-1x"></i>
-              <p style={{ margin: "1vh 0 0 0", fontSize: '2vh' }}>Be Creative !</p>
+              <p style={{ margin: "1vh 0 0 0", fontSize: '1rem' }}>Be Creative !</p>
             </div>
           )}
         </Step>
@@ -48,7 +48,7 @@ const ProgressStep = () => {
               style={{ height: "max-content", textAlign: "center" }}
             >
               <i className="fas fa-upload fa-1x"></i>
-              <p style={{ margin: "1vh 0 0 0", fontSize: '2vh' }}>Post!</p>
+              <p style={{ margin: "1vh 0 0 0", fontSize: '1rem' }}>Post!</p>
             </div>
           )}
         </Step>

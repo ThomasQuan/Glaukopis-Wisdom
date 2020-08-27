@@ -1,14 +1,24 @@
 .intro-section {
   width: 100vw;
-  height: max-content;
+  height: auto;
   margin-bottom: 1rem;
-  background-image: url("../assets/photo/online-learning.jpg");
+  background-image: linear-gradient(
+      248.24deg,
+      rgba(105, 105, 105, 0.356) 0.31%,
+      rgba(0, 0, 0, 0.63) 20.56%,
+      rgba(0, 0, 0, 0.589) 77.15%,
+      rgba(151, 151, 151, 0.493) 99.8%,
+      rgba(197, 197, 197, 0.795) 99.96%,
+      rgba(107, 107, 107, 0.582) 99.97%,
+      rgba(177, 177, 177, 0.185) 99.98%
+    ),
+    url("../assets/photo/online-learning.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  background-position: -40% 50%;
   > .intro-header {
+
     width: 100vw;
     height: max-content;
     > .intro-logo {
@@ -20,10 +30,12 @@
     position: relative;
     padding: 1rem 0 1rem 1rem;
     margin: 10vh 0 0 10vw;
-    width: 40vw;
-    height: max-content;
+    width: 70vw;
+    height: auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    color: white;
 
     > .intro-title {
       margin: 0%;
@@ -32,24 +44,28 @@
     }
     > .intro-subtitle {
       font-weight: 400;
-      width: 30vw;
-      margin: 1rem 0 0 3vh;
+      width: 70vw;
+      margin: 1rem 0 0 0;
+      text-align: center;
     }
 
     > .button-container {
-      margin-top: 5rem;
+      margin-top: 1vh;
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
       > a {
-        margin: auto 0.2rem 1rem 3vh;
-        height: 3rem;
+        margin-bottom: 2vh;
+        height: auto;
         font-size: 1rem;
-        padding: 0.5rem;
-        width: 8rem;
+        padding: 2vh;
+        width: auto;
         text-decoration: none;
         color: $forest-color;
       }
-      >a:hover{
+      > a:hover {
         color: white;
       }
     }
@@ -65,7 +81,6 @@
 
     > h2 {
       font-weight: normal;
-
     }
   }
 }
@@ -78,33 +93,36 @@
       display: flex;
       justify-content: center;
       > .intro-logo {
-        width: 20vw;
+        width: 15vw;
         margin: 1rem 0 0 1rem;
       }
     }
     > .intro-content {
       margin: 3rem auto auto auto;
-      width: 50vw;
-      height: max-content;
+      width: 95vw;
+      height: 60vh;
+      > .intro-title {
+        text-align: center;
+      }
       > .intro-subtitle {
-        width: 40vw;
+        width: 50vw;
         margin: 3vh auto 0 auto;
+        text-align: center;
       }
       > .button-container {
-        justify-content: center;
-        margin-left: auto;
+        width: 95vw;
+        justify-content: space-between;
+        margin-top: "1vh";
       }
     }
   }
 }
 @media only screen and (max-width: 630px) {
   .intro-section {
-    height: max-content;
-
     > .intro-content {
       width: 100vw;
       padding: 0;
-      >.intro-title{
+      > .intro-title {
         margin-left: 3vw;
       }
       > .intro-subtitle {
@@ -112,11 +130,10 @@
         margin: 3vh auto 0 auto;
       }
       > .button-container {
-        justify-content: center;
-        margin-left: auto;
+        flex-wrap: wrap;
       }
     }
-    >.intro-cont{
+    > .intro-cont {
       width: 80vw;
     }
   }

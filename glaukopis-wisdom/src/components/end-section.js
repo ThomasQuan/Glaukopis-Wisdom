@@ -1,5 +1,7 @@
 import React from "react";
-import WelcomeIllustration from "../assets/photo/undraw_welcome_3gvl.png";
+import Thankyou from "../assets/photo/morvanic-lee-GiUJ02Yj_io-unsplash.jpg";
+import { ReactComponent as Owl } from "../assets/svg/owl.svg";
+
 import { useHistory } from "react-router-dom";
 
 const EndSection = () => {
@@ -12,14 +14,17 @@ const EndSection = () => {
     <React.Fragment>
       <div className="end-section">
         <div>
-          <img src={WelcomeIllustration} alt='undraw welcome'></img>
-          <h1>Let's jump over to our platform and discover the undiscover</h1>
-          <button
-            className="transparent-border hover-effect"
-            onClick={tempNavHandle}
-          >
-            Join now
-          </button>
+          <img src={Thankyou} alt="undraw welcome"></img>
+          <div>
+            <Owl className="end-logo"></Owl>
+            <h1>Start your new career today!</h1>
+            <button
+              className="transparent-border hover-effect"
+              onClick={tempNavHandle}
+            >
+              Join now
+            </button>
+          </div>
         </div>
       </div>
     </React.Fragment>

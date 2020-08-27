@@ -1,28 +1,42 @@
 .end-section {
+  margin-top: 5vh;
   width: 100vw;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10vh;
+  background-image: url(../assets/photo/chalkboard.jpg);
+  background-repeat: repeat;
+
   > div {
     display: flex;
-    flex-direction: column;
-    margin-top: 3vh;
+    margin-left: 3vh;
     > img {
       width: 30vw;
 
       object-fit: cover;
       margin: auto;
     }
-    > h1 {
-      width: 70vw;
-      text-align: center;
-    }
-    > button {
-      margin: 0 auto 0 auto;
-      padding: 1vh 2vw 1vh 2vw;
-      font-weight: bold;
+    > div {
+      margin: 2vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      >.end-logo{
+        width: 15vw;
+        height: 20vh;
+        fill: white;
+      }
+      h1 {
+        color: white;
+        text-align: center;
+      }
+      > button {
+        margin: 0 auto 0 auto;
+        padding: 1vh 2vw 1vh 2vw;
+        font-size: 1rem;
+        font-weight: bold;
+      }
     }
   }
 }

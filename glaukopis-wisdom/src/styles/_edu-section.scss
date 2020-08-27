@@ -16,27 +16,26 @@
     > h1 {
       margin: 0 0.5rem 0 3rem;
       font-weight: normal;
-      font-size: 5vh;
+      font-size: 1.5rem;
     }
     > .statement-content {
       display: flex;
       align-content: center;
       flex-wrap: wrap;
       flex-direction: column;
-      margin: 10vh 0 0 5rem;
-      >ul{
+      margin: 5vh 0 0 5rem;
+      > .statement-content-detail {
         width: 30vw;
-        margin-bottom: 1rem;
-        >li{
-          font-size: 1.25rem;
-        }
+        margin-bottom: 3rem;
+        font-size: 1.5rem;
+        font-weight: normal;
       }
       > p {
         width: 25vw;
         height: max-content;
         font-size: 4vh;
-        margin: 2vh auto 2vh auto ;
-        font-weight:bold;
+        margin: 2vh auto 2vh auto;
+        font-weight: bold;
       }
       > .support-gallary {
         display: flex;
@@ -52,9 +51,9 @@
       }
       > button {
         margin: 2rem auto 0 auto;
-        width: max-content;
         height: max-content;
-        padding: 2vw;
+        width: 10vw;
+        padding: 2vh 0 2vh 0;
         font-size: 1rem;
         font-weight: bold;
       }
@@ -71,19 +70,17 @@
       width: 100vw;
     }
     > .edu-content {
-      height:auto;
+      height: auto;
       > h1 {
         margin: 0 0.5rem 0 1rem;
       }
       > .statement-content {
         justify-content: center;
         margin-left: 0;
-        >ul{
-          
+
+        > .statement-content-detail {
           width: 70vw;
-          >li{
-            margin-bottom: 5vh;
-          }
+          margin-bottom: 5rem;
         }
         > p {
           font-size: 1.5rem;
@@ -94,7 +91,9 @@
         }
         > button {
           margin: 2rem auto 2rem auto;
+          padding:  2vh;  
           font-weight: bold;
+          width: max-content;
         }
       }
     }

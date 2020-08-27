@@ -11,16 +11,21 @@ const ProfessionalWorkshop = () => {
   }
   return (
     <React.Fragment>
-      <div className="pro-section" id='workshop'>
+      <div className="pro-section" id="workshop">
         <div className="pro-section-content">
           <div className="pro-section-title">
-            <h1>Hiring Workshop</h1>
-            <img src={DocumentIllustration} alt="document"></img>
+            <div className="pro-section-title-content">
+              <h1>Hiring Workshop</h1>
+              <h2>
+                Job in mind? Strengthen your skills and ace your next job
+                interview with ease!
+              </h2>
+            </div>
+            <div className="pro-section-title-img">
+              <img src={InterviewIllustration} alt="interview "></img>
+            </div>
           </div>
-          <h2>
-            Job in mind? Strengthen your skills and ace your next job interview
-            with ease.
-          </h2>
+
           <div className="pro-section-desc">
             <div className="pro-section-desc-container">
               <h1>Resume Review</h1>
@@ -28,28 +33,34 @@ const ProfessionalWorkshop = () => {
                 We provide a wide range of resume samples, examples, and
                 guidelines to prepare and/or perfect your resume writing.
               </p>
+              <button className="transparent-border hover-effect">
+                Review now
+              </button>
             </div>
             <div className="pro-section-desc-container">
-              <h1>Interview tips</h1>
+              <h1>Interview Guideline(s)</h1>
               <p>
                 What is an employer looking for in an interview? What might they
                 ask? How should you dress? Find out all that and more here!
               </p>
+              <button className="transparent-border hover-effect">
+                Prepare now
+              </button>
             </div>
             <div className="pro-section-desc-container">
-              <h1>Cover letter</h1>
+              <h1>Cover Letter Criteria</h1>
               <p>
                 Want to stand out from the crowd but not sure how. We’ll tell
                 you exactly how a cover letter can make or break your job
                 search.
               </p>
+              <button className="transparent-border hover-effect">
+                Review now
+              </button>
             </div>
-            <div className="pro-section-desc-container">
-              <button className='transparent-border hover-effect' onClick={tempNavHandle}>Visit the workshop</button>
-            </div>
+         
           </div>
         </div>
-        <img src={InterviewIllustration} alt='interview '></img>
       </div>
     </React.Fragment>
   );
