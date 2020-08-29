@@ -10,17 +10,23 @@ import { useHistory } from "react-router-dom";
 const EduSection = () => {
   const history = useHistory();
 
-  function tempNavHandle() {
+  function NavBusinessPage() {
+    window.location.href = "https://glaukopis-wisdom.vercel.app";
+  }
+  function NavTempPage() {
     history.push("/inprogress");
   }
   return (
     <React.Fragment>
-      <div className="edu-section" id="edu">
+      <div className="section" data-aos="fade-down">
         <img src={Library} alt="library"></img>
-        <div className="edu-content">
+        <div className="content">
           <h1>Shorten your search time - increase your learning</h1>
           <div className="statement-content">
-            <p className='statement-content-detail'>
+            <p
+              className="statement-content-detail"
+              style={{ textAlign: "start" }}
+            >
               Our online course selection has been vetted and verified to
               provide you with the industry’s most renowned learning materials.
               Our up to date programs are actively implemented and will help to
@@ -42,9 +48,9 @@ const EduSection = () => {
             </div>
             <button
               className="transparent-border hover-effect"
-              onClick={tempNavHandle}
+              onClick={NavBusinessPage}
             >
-              Start Exploring
+              Learn more
             </button>
           </div>
         </div>

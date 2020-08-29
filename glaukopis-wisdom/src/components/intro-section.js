@@ -15,7 +15,7 @@ const IntroSection = () => {
           <h2 className="intro-subtitle">
             Your curated library of learning materials, job postings, and
             dedicated networking communities -
-            <b> All within a single sources!</b>
+            <b style={{color : '#d8b26e'}}> All within a single sources!</b>
           </h2>
           <div className="button-container">
             <a href="#edu" className="transparent-border hover-effect" style={{borderRadius : '0px'}}>
